@@ -1,3 +1,16 @@
+.display{
+  width:100px;
+  height:100px;
+  margin: 0 auto;
+  background:gray;
+  color:#FFF;
+}
+
+button{
+  margin: 0 auto;
+}
+
+
 .App {
   text-align: center;
 }
