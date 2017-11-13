@@ -1,12 +1,39 @@
 .display{
-  width:100px;
-  height:100px;
-  margin: 0 auto;
   background:gray;
   color:#FFF;
+  width:200px;
+  height:200px;
+  text-align:center;
+  margin:auto;
+  font-size: 30px;
 }
 
-button{
+.button{
+  width:250px;
+  height:200px;
+  position:relative;
+  margin:0 auto;
+}
+
+.btn{
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  font-size: 25px;
+}
+
+.btnMinus{
+  position:absolute;
+  left:0;
+}
+.btnPlus{
+  position:absolute;
+  right:0;
+}
+
+
+
+/* button{
   margin: 0 auto;
 }
 
@@ -38,4 +65,4 @@ button{
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
-}
+} */
