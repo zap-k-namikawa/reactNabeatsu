@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import logo from 'img/logo.svg';
 import './App.css';
 
 
-const baisu = 'https://www.google.co.jp/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
+const baisu = 'http://placehold.jp/3d4070/ffffff/200x200.png?text=%E3%81%AA%E3%81%B9%E3%81%82%E3%81%A4';
 
 
 class App extends Component {
@@ -30,7 +29,7 @@ class App extends Component {
   render(){
     return(
       <div className="block">
-        <div className="display"><img src={this.getIsSan()} />{this.state.count}</div>
+        <div className="display"><img src={this.getIsSan()} alt=""/>{this.state.count}</div>
         <div className="button">
         <button className="btn btnPlus" onClick={this.handleClicks.bind(this)}>+</button>
         <button className="btn btnMinus"onClick={this.handleClick.bind(this)}>-</button>
